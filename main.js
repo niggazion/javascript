@@ -50,6 +50,11 @@ alert(data.getDay());
 alert(data.getMinutes());
 alert(data.getHours());
 
+function load(){
+
+document.getElementById("a").innerHTML = "Foi inserido pelo JS";
+
+}
 /*
 var passo;
 for (passo = 0; passo < 5; passo++) {
